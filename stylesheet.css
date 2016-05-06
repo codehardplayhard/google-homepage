@@ -1,0 +1,111 @@
+#form
+{
+	text-align: center;
+	clear: right;
+}
+
+
+img
+{
+	display: block;
+	margin: auto;
+	width: 500px;
+	height: 200px;
+}
+
+ul
+{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	float: right;
+}
+
+
+li
+{
+	display: inline;
+	font-family: arial, sans-serif;
+	font-size: 13px;
+}
+
+li a
+{
+	text-decoration: none;
+	padding: 8px;
+	color: #222;
+}
+
+li a:hover
+{
+	opacity: .85;
+	text-decoration: underline;
+}
+
+a:visited
+{
+	color: #609;
+}
+
+.symbol
+{
+	display: inline;
+	height: 20px;
+	width: 20px;
+	border-radius: 2px;
+	vertical-align: middle;
+}
+
+#kj
+{
+	display: inline;
+	height: 32px;
+	width: 32px;
+	border-radius: 50%;
+}
+
+#search
+{
+	width: 425px;
+	height: 33px;
+	background: url(http://i.imgur.com/l5S4LZ2.png) no-repeat -3px 0;
+	background-size: 24px 24px;
+	background-position: right;
+	display: inline-block;
+	vertical-align: middle;
+}
+
+input[type=submit]
+{
+	border: 1px solid #c6c6c6;
+	background-color: #f1f1f1;
+	padding: 10px 16px;
+	margin: 35px 4px;
+	text-align: center;
+	font-size: 13px;
+	font-weight: bold;
+	color: gray;
+}
+
+#bottom
+{
+	display: inline-block;
+	position: fixed;
+	clear: both;
+	border: 1px solid #e7e7e7;
+	width: 100%;
+	background-color: #f3f3f3;
+	padding: 12px 15px;
+	bottom: 0;
+	word-spacing: 15px;
+	font-size: 13px;
+	color: gray;
+}
+
+#float
+{
+	display: inline-block;
+	float: right;
+	padding-right: 50px;
+}
