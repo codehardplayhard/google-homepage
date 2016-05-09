@@ -1,5 +1,6 @@
 #form
 {
+	padding-top: 150px;
 	text-align: center;
 	clear: right;
 }
@@ -9,19 +10,19 @@ img
 {
 	display: block;
 	margin: auto;
-	width: 500px;
-	height: 200px;
+	width: 272px;
+	height: 92px;
 }
 
 ul
 {
 	list-style-type: none;
+	padding-top: 10px;
+	padding-right: 10px;
 	margin: 0;
-	padding: 0;
 	overflow: hidden;
 	float: right;
 }
-
 
 li
 {
@@ -67,18 +68,19 @@ a:visited
 
 #search
 {
-	width: 425px;
-	height: 33px;
+	width: 580px;
+	height: 40px;
 	background: url(http://i.imgur.com/l5S4LZ2.png) no-repeat -3px 0;
 	background-size: 24px 24px;
 	background-position: right;
 	display: inline-block;
 	vertical-align: middle;
+	border: 1px solid #d3d3d3;
 }
 
 input[type=submit]
 {
-	border: 1px solid #c6c6c6;
+	border: 1px solid #f1f1f1;
 	background-color: #f1f1f1;
 	padding: 10px 16px;
 	margin: 35px 4px;
@@ -92,11 +94,11 @@ input[type=submit]
 {
 	display: inline-block;
 	position: fixed;
+	width: 100%;
 	clear: both;
 	border: 1px solid #e7e7e7;
-	width: 100%;
 	background-color: #f3f3f3;
-	padding: 12px 15px;
+	padding: 12px 0;
 	bottom: 0;
 	word-spacing: 15px;
 	font-size: 13px;
@@ -107,5 +109,10 @@ input[type=submit]
 {
 	display: inline-block;
 	float: right;
-	padding-right: 50px;
+	padding-right: 47px;
+}
+
+#google
+{
+	padding-bottom: 30px;
 }
